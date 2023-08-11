@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int start;
 	int ten_times = 1;
 
-	while(ten_time <= 10)
+	while(ten_times <= 10)
 	{
 		start = 97;
 		
@@ -21,5 +21,6 @@ void print_alphabet_x10(void)
 		start++;
 	}
 	_putchar('\n');
-	ten_time++;
+	ten_times++;
+	}
 }
