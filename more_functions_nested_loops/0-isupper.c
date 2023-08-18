@@ -1,11 +1,12 @@
 #include "main.h"
 
-/*
- *_isupper - Test for un uppercase letter
- * @c: letter in check
+/**
+ * _isupper - Check if is is an uppercase letter
+ * @c: letter to verify
  *
- * return: differente of 0 if is uppercase and 0 otherwise
- */
+ * Return: 1 is uppercase, 0 in otherwise
+ **/
+
 int _isupper(int c)
 {
 	int result;
