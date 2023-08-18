@@ -1,11 +1,11 @@
 #include "main.h"
 
-/** _isupper - Test for un uppercase letter
+/*
+ *_isupper - Test for un uppercase letter
  * @c: letter in check
  *
- * Return: differente of 0 if is uppercase and 0 otherwise
- * */
-
+ * return: differente of 0 if is uppercase and 0 otherwise
+ */
 int _isupper(int c)
 {
 	int result;
@@ -13,7 +13,7 @@ int _isupper(int c)
 	result = isupper(c);
 
 	if (result == 0)
-		return(0);
+		return (0);
 	else
-		return(1);
+		return (1);
 }
