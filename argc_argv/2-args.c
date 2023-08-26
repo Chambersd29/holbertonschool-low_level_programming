@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * @argc: argument counter-line
- * @argv: argument vector
+ * main - Entry point of the program
+ * @argc: The number of command-line arguments
+ * @argv: An array containing the comand-line arguments
  *
- * Return - 0
+ * Return: Always returns 0 to indicate success
  **/
+
 int main(int argc, char *argv[])
 {
 	int i;
