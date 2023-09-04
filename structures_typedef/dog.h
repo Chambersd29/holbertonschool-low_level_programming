@@ -27,17 +27,11 @@ struct dog
  * @owner: dog_t owner
  **/
 
-/**
- * struct dog_t - Structut for created a dog.
- *@name: Name of dog.
- *@age: Age of dog.
- *@owner: Owner of dog.
- */
 typedef struct dog_t
 {
-        char *name;
-        float age;
-        char *owner;
+	char *name;
+	float age;
+	char *owner;
 } dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
